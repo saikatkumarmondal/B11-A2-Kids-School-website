@@ -9,6 +9,20 @@
   .display-flex{
     display: flex;
   }
+
+  body{
+    margin: 0 50px;
+  }
+.beautiful{
+    color: #666666;
+    font-weight: 500;
+    font-size: 0.938rem;
+}
+  .our-story-text{
+    color: black;
+    font-weight: bold;
+    font-size: 0.938rem;
+  }
 .nav-image-container{
     /* justify-content: space-between; */
 }
@@ -95,17 +109,204 @@
 }
 .standard-curriculum-card-one{
     border-radius: 10px;
+    justify-items: center;
 }
 .first-image-container{
     background-color: #DEF5FF;
+  
 }
+
 .standard-curriculum-card-two{
 background-color: #FFF4DC;
+justify-items: center;
 }
 .standard-curriculum-card-three{
     background-color: #F2E8FF;
+    justify-items: center;
+}
+.standard-curriculum-section{
+    background-image: url("/assets/bg.png");
+    background-repeat: no-repeat;
+    
+}
+.btn-one{
+    background-color: white;
+    color: #64C8FF;
+    border: none;
+}
+.btn-two{
+      background-color: white;
+    color: #F0AA00;
+    border: none;
+}
+.btn-three{
+    background-color: white;
+    color: #8700FF;
+    border: none; 
+    
+}
+.arrow-btn-container{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   gap: 20px;
 }
 
+.standard-curriculum-header{
+    text-align: center;
+    
+}
+ 
+.icon-one,.icon-two{
+    background-color: yellow;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+   
+}
+
+
+.our-story-header{
+    text-align: center;
+}
+.our-story-parent{
+    display: flex;
+    padding: 30px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.our-story-first-card{
+    
+}
+.view-all-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+   padding: 10px;
+}
+.view-all-btn-container{
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+.our-story-btn-first{
+    background-color: #3CD8E8;
+    border: none;
+    border-radius: 47px;
+    padding: 19px;
+    position:relative;
+    top: -40px;
+    left: 20px;
+    color: white;
+}
+.our-story-image-first,.our-story-image-5th,.our-story-image-4th,.our-story-image-3rd,.our-story-image-2nd{
+    border-radius: 15px;
+}
+.our-story-section{
+    background-image: url("/assets/bg.png");
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}
+.our-story-second-card,.our-story-first-card {
+    position: relative;
+    padding: 20px; 
+    /* background-color: #fff;
+    border: 2px solid white;  */
+    box-shadow: 0 4px 20px rgba(236, 239, 241, 0.897); 
+    border-radius: 10px;}
+.our-story-second-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px
+    
+}
+.our-story-btn-second{
+    background-color: #95B226;
+    border: none;
+    border-radius: 47px;
+    padding: 19px;
+    position:relative;
+    top: -40px;
+    left: 20px;
+    color: white;
+}
+.our-story-btn-thrid{
+    background-color: #5D58F0;
+    border: none;
+    border-radius: 47px;
+    padding: 19px;
+    position:relative;
+    top: -40px;
+    left: 20px;
+    color: white;
+}
+.our-story-btn-4th{
+    background-color: #95B226;
+    border: none;
+    border-radius: 47px;
+    padding: 19px;
+    position:relative;
+    top: -40px;
+    left: 20px;
+    color: white;
+}
+.our-story-btn-5th{
+    background-color: #95B226;
+    border: none;
+    border-radius: 47px;
+    padding: 19px;
+    position:relative;
+    top: -40px;
+    left: 20px;
+    color: white;
+}
+
+.footer-section{
+    background-color: #01ACFD;
+    width: 1400px;
+
+}
+
+.footer-section ul li{
+    list-style: none;
+}
+.footer-ul{
+    display: contents;
+}
+.kids-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2.625rem;
+}
+.footer-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-section{
+    padding: 20px;
+}
+.footer-description{
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.footer-image-container{
+   /* display: flex; */
+}
+
+
+.about-footer-container{
+    /* display: flex; */
+}
 
 
 
@@ -120,7 +321,7 @@ background-color: #FFF4DC;
     }
     .navbar-small{
         display: flex;
-        width: 200px;
+        width: 100px;
        /* margin-left: 150px; */
        /* justify-content: space-between; */
        /* margin-right: 0 auto; */
